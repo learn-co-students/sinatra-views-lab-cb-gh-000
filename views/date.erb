@@ -7,7 +7,6 @@
   <body>
     <h1>Today</h1>
     <% date = Date.today %>
-    <!-- <% days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %> -->
     <p><%= "The date is #{Date::DAYNAMES[date.wday]}, #{Date::MONTHNAMES[date.mon]} #{date.mday}, #{date.year}." %></p>
   </body>
 </html>
